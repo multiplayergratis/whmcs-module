@@ -1,0 +1,21 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-servers",
+    "name": "multiplayergratis",
+    "license": "MIT",
+    "category": "provisioning",
+    "description": {
+        "name": "multiplayer.gratis",
+        "tagline": "Kostenlose Gameserver von multiplayer.gratis in WHMCS verwalten.",
+        "short": "Bestellt, verlängert und verwaltet multiplayer.gratis Server automatisch über WHMCS, bezahlt mit Coins: Status, Auslastung, Power-Aktionen und Backups im Kunden- und Admin-Bereich."
+    },
+    "support": {
+        "homepage": "https://multiplayer.gratis"
+    },
+    "authors": [
+        {
+            "name": "multiplayer.gratis",
+            "homepage": "https://multiplayer.gratis"
+        }
+    ]
+}

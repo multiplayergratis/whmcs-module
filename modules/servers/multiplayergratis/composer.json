@@ -1,0 +1,25 @@
+{
+    "name": "multiplayer-gratis/whmcs-module",
+    "description": "WHMCS-Provisioning-Modul für multiplayer.gratis.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "multiplayer.gratis",
+            "homepage": "https://multiplayer.gratis"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "multiplayer-gratis/api-client": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WHMCS\\Module\\Server\\MultiplayerGratis\\": "lib/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
